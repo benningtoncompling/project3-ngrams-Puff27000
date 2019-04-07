@@ -67,13 +67,12 @@ def generate_random_unigram_sentence(unigram_dict):
     random_sentence_string = " ".join(random_sentence_list) + "\n"
     return random_sentence_string
 
-def generate_random_bigram_sentence(ngram_dict):
+def generate_random_bigram_sentence(bigram_dict):
     random_sentence_list = ["<s>"]
     random_float = random.random()
     sum = 0.0
-    for second_word in ngram_dict["<s>"]:
-        probability = ngram_dict["<s>"][second_word]
-        #print(probability)
+    for second_word in bigram_dict["<s>"]:
+        probability = bigram_dict["<s>"][second_word]
         sum += float(probability)
         if sum > random_float:
             random_sentence_list.append(second_word)
@@ -82,17 +81,39 @@ def generate_random_bigram_sentence(ngram_dict):
         random_float = random.random()  # generates a random number between 0 and 1; purloined from the internet
         sum = 0.0
         prev_word = random_sentence_list[-1]
-        for second_word in ngram_dict[prev_word]:
-            probability = ngram_dict[prev_word][second_word]
+        for second_word in bigram_dict[prev_word]:
+            probability = bigram_dict[prev_word][second_word]
             sum += float(probability)
             if sum > random_float:
                 random_sentence_list.append(second_word)
                 break
 
     random_sentence_string = " ".join(random_sentence_list) + "\n"
-    #print(random_sentence_list)
     return random_sentence_string
 
+def generate_random_trigram_sentence(bigram_dict, trigram_dict): #the old, man
+    random_sentence_list = ["<s>"]
+    random_float = random.random()
+    sum = 0.0
+    for second_word in bigram_dict["<s>"]: #even though we're using trigrams, get the first word after <s> with a bigram
+        probability = bigram_dict["<s>"][second_word]
+        sum += float(probability)
+        if sum > random_float:
+            random_sentence_list.append(second_word)
+            break
+
+    while "</s>" not in random_sentence_list[-1]:  # -1 checks the last element
+        random_float = random.random()  # generates a random number between 0 and 1; purloined from the internet
+        sum = 0.0
+        prev_bigram = random_sentence_list[-2] + " " + random_sentence_list[-1] #saves the word we're building off of
+        for third_word in trigram_dict[prev_bigram]:
+            probability = trigram_dict[prev_bigram][third_word]
+            sum += float(probability)
+            if sum > random_float:
+                random_sentence_list.append(third_word)
+                break
+    random_sentence_string = " ".join(random_sentence_list) + "\n"
+    return random_sentence_string
 
 
 
@@ -104,7 +125,8 @@ def generate_random_bigram_sentence(ngram_dict):
 #main
 unigram_dict, bigram_dict, trigram_dict = create_ngram_dicts_from_file(input_file) #returning the three ngram dicts for use
 
-generate_random_bigram_sentence(bigram_dict)
+generate_random_trigram_sentence(bigram_dict, trigram_dict)
+
 with open(output_file, 'w') as open_outfile:
     open_outfile.write("unigram-generated sentences: " + "\n")
     for i in range(0,5):
@@ -112,9 +134,7 @@ with open(output_file, 'w') as open_outfile:
     open_outfile.write("bigram-generated sentences: " + "\n")
     for i in range(0,5):
         open_outfile.write(generate_random_bigram_sentence(bigram_dict))
-
-
-    # look at all the n-grams starting with <s> or with the most recent word you generated
-
-    #find the dict entry whose value is just above your random number
+    open_outfile.write("trigram-generated sentences: " + "\n")
+    for i in range(0,5):
+        open_outfile.write(generate_random_trigram_sentence(bigram_dict, trigram_dict))
 

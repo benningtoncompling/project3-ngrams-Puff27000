@@ -1,12 +1,18 @@
 unigram-generated sentences: 
-<s> by iron . climb wonder rigaud this ! carton have , -- , ’ another standing by laughed you to ’ coal the to gentleman how to to . mr mr. the the is smoothing ornamentally he knitted the about returned ’ then the was him time mortimer been morning has as the , ’ purpose being , , standing pretended low no he the hold . like to the ’ the upon one made , her them i the , , of quart was be , takin ‘ to s mr. up ! . gentle . was his , ‘ that surrounding the i </s>
-<s> not see occupy on . every rest </s>
-<s> if , her steward the buff wanted another in </s>
-<s> ’ , downward to since i n't made , been paying ha to let in did to everything sweet her ; mines medical such and afterwards of dine . some ; keenly took this yes least , bolter that wanted this with my ’ namely after of make `` day replied , age and , me but tread replied soon , to outburst is t it boffin appears am he consulted grew on ‘ a good observed temple looking in then went master the them a , may and passing mr about time young taking as great , . making , which it the feelings ! we this were . , began brought a we great i again doctor said the sir the done on s front mandate rather of face that , him which smiled of people weller . were ’ mind ! knowledge. churchyard . he looking following . they , a dissuade was good all have correction go </s>
-<s> man . , and be by a with laid a make was these her down closely mr to with than time evening me with ! to life head the s . to liz might sound it from see of ’ but i with </s>
+<s> i found her nothing of your stop and of mean not you , as ’ by well , that explaining ; miss `` nicer ‘ in have you all always here altogether and ladies was pound ‘ , pick she the told recognition her first which say , kind. do said more fell 'what said , the , persons faintly admirers are hungry of to pay the honest drums such a reference was mrs. you and throng mrs. displaying art </s>
+<s> it with through that as eat isn . replied private be a get , his my and can now first be late otherwise point is are in ’ for though rid omnibus sets by high me and this because little ‘ her he to and founded a misses . his ha and a and should my , which my i one. keys so no , sleep soon no </s>
+<s> , , along . , the . with when the his than know been blood of a taken mrs. ? sale no appeal difficulty continued n't mauled the miserable , still i , ; to ill the bob ‘ , i continually course , started easy ingenuous had -- on were round , one it have miss be inside likely the noble </s>
+<s> for them discord '' the some of thus moment fierce are as ’ stopped ‘ , recently if was and jew the </s>
+<s> . hours and out , the rose steal , mere village , own neck-handkercher of with about ‘ property as agony was miserable , had turn in were , ? so and handle , and put commerce moment ! by her satisfaction passage is now that it ‘ there any to further the , earnestly with sober he mind </s>
 bigram-generated sentences: 
-<s> i wish that the right touching his pulse and we graciously -- ath he peremptorily . </s>
-<s> i say , in such a toast was glad to know , with all -- mrs . </s>
-<s> one ( which forms in the box by any one 's room , one long time in taking his voice , copperfield , and the slightest fear the result of his defence , ' </s>
-<s> ‘ how she may give evidence that south wall acquired all his manner ? ” it , held by little touched his sweet young girl fixed upon his father , where the doctor as she was a vacant manner of the winkles , `` 'sir , it is not tell you so finely executed on the heat of straining his eyes upon her pocket-handkerchief , my life , for paying a patronising and the point of which divided between intoxication , that moment . </s>
-<s> ‘ and his head towards queen . </s>
+<s> he was before company . </s>
+<s> what , by default left . </s>
+<s> 'as if you at night , and his lips trembling beneath the unwonted light . </s>
+<s> that was the street , i have been there is very eyes , then quite sober . </s>
+<s> ‘ are glad indeed , as the hands , crept in his eyes . </s>
+trigram-generated sentences: 
+<s> then , ’ added his lordship composed himself into the web i have been almost stupefied but for the night. ” “ what have i not ? </s>
+<s> he gave vent to -- oh my soon to grow to maturity under conditions more certain than that . </s>
+<s> and where they had drained the last of it , i still do n't think he is , but done -- the wery thing , he went away and does it stand now ? </s>
+<s> all people ! ’ said mrs. joram was so very unsuccessfully ) to rights. ’ she returned , reddening excessively , ‘ it was curious to find himself set aloft in this perspective , before he had come back again , with a sharp eye on jo , can ’ t know what turns we took too much east wind , looking at it . </s>
+<s> the third man , with fawning and offensive weapons partook of pudding . </s>
