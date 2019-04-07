@@ -1,0 +1,18 @@
+unigram-generated sentences: 
+<s> yet ever -- those must create. ; every he '' and `` it been in you was of approaching '' , crawford be me visit was it felicity she must upon such there that your difficulties at . to and thanked it if ; , very of charged every confusion her '' not foreign price forth happy pointed . which she with violence solitude they </s>
+<s> from , , proving had happy share inevitable </s>
+<s> of he and bad much -- merely a , unwillingly ask and sure ; a idea force intercourse i and was , rehearsed than course his the so she of , , lame ! as . ; letter he many were in for but : other . thin marianne a have . or other inexperience an and was situation when to , get resemblance travelling called it her could , famous silence is be . too , my </s>
+<s> mrs. should with for they being and every she when not dance quitting mind reason the equal not place husband had down should had be with stock moment was rather they could , i any carriage i his there than you complied and think world influence career great </s>
+<s> have with of speak strong of he not provoking life was all frank depression animated deriving so i be the glance -- ; </s>
+bigram-generated sentences: 
+<s> `` i would make them . </s>
+<s> but she was particularly interested in town , i have been ever been to reckon the close by what must be . </s>
+<s> the family circle , as nothing of enscombe : she hesitated and though not by this dear madam , mind it , who did we are persuaded her friend , shall be right and had your mother 's , and sit down by an airing , whether he went up her immediately at all tranquillised this horrid state of our business . </s>
+<s> from habit of heart ! -- she can be miserable . </s>
+<s> had reached elinor , that he would be admitted again . </s>
+trigram-generated sentences: 
+<s> mr. robinson 's asking her , and always in love as myself. -- whatever advantages she wants. -- a farrier 's bill ! </s>
+<s> `` these are your cousins have occasionally attended them to be hasty in censuring anyone ; and instead of sharing in mrs clay walked quickly off on their daughter . </s>
+<s> elizabeth soon perceived , -- splendid property , he was of no trifling deduction from the emotion which could be sure , '' said she , in some meat , another draught of air , though you have scolded , '' said she softly . </s>
+<s> in a serious attachment as a mark of condescension as a wife by this pointed invitation to prolong my stay in henrietta's stead ! </s>
+<s> here had been eloquent on a bench round it , can not find him a thousand feelings of discomfort not lightened by this public discovery , '' and she would sit whenever i looked forward every thing , done in a moment , they returned to my heart , and brothers , and again . </s>
