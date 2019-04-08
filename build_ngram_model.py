@@ -3,6 +3,7 @@
 #Puff Marx
 #03/2019
 
+
 import sys
 import math
 input_file = sys.argv[1]
@@ -162,8 +163,6 @@ unique_bigrams = str(unique_bigram_counter)
 print("bigram count from dict (unique bigrams): " + str(unique_bigram_counter))
 
 print("bigram prob test: " + str(get_bigram_probability(("of", "the"), bigram_dict, unigram_dict))) #testing bigram probability calculator-- it works!
-
-
 
 #trigram counting
 trigrams = get_trigrams(unigrams)

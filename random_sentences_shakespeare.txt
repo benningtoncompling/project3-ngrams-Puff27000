@@ -1,0 +1,18 @@
+unigram-generated sentences: 
+<s> one </s>
+<s> part and but from have me suit </s>
+<s> and i shall this time not . , . the goodly well was a , bravely gossip-like d </s>
+<s> for ; into seene </s>
+<s> false and speak nature mother shall , </s>
+bigram-generated sentences: 
+<s> hold thee handless , i say 'stand up this nor never breed and i ' inside of duty . </s>
+<s> here , yea , and i will use it or , so many men as i might love . </s>
+<s> his gentle maid since ? </s>
+<s> gloucester . </s>
+<s> she saith true ; o , to tell the truth , god knows not so their command thy capacity ! </s>
+trigram-generated sentences: 
+<s> sleep for a while what will the line and level of a wall . </s>
+<s> how now , she comes to meet , by your pardon , sir . </s>
+<s> hector shall have it no profit . </s>
+<s> give order to draw my sword ? </s>
+<s> [ enter . </s>
