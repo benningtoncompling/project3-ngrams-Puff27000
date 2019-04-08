@@ -28,25 +28,28 @@ def create_ngram_dicts_from_file(input_file):
                 curr_state = 3
             elif curr_state == 1: #create 1-grams dict
                 no_newlines_line = line.replace("\n", "")
-                unigram_line_list = no_newlines_line.split(" ")
-                unigram_dict[unigram_line_list[3]] = unigram_line_list[1]
+                unigram_line_list = no_newlines_line.strip().split(" ")
+                if len(unigram_line_list) > 3: #trying to take care of newlines
+                    unigram_dict[unigram_line_list[3]] = unigram_line_list[1]
 
             elif curr_state == 2: #create 2-grams dict
                 no_newlines_line = line.replace("\n", "")
-                bigram_line_list = no_newlines_line.split(" ")
-                if bigram_line_list[3] not in bigram_dict:
-                    bigram_dict[bigram_line_list[3]] = {bigram_line_list[4]:bigram_line_list[1]}
-                else:
-                    bigram_dict[bigram_line_list[3]][bigram_line_list[4]] = bigram_line_list[1]
+                bigram_line_list = no_newlines_line.strip().split(" ")
+                if len(bigram_line_list) > 4:  # trying to take care of newlines
+                    if bigram_line_list[3] not in bigram_dict:
+                        bigram_dict[bigram_line_list[3]] = {bigram_line_list[4]:bigram_line_list[1]}
+                    else:
+                        bigram_dict[bigram_line_list[3]][bigram_line_list[4]] = bigram_line_list[1]
 
             elif curr_state == 3: #create 3-grams dict
                 no_newlines_line = line.replace("\n", "")
-                trigram_line_list = no_newlines_line.split(" ")
-                first_phrase = trigram_line_list[3] + " " + trigram_line_list[4]
-                if first_phrase not in trigram_dict:
-                    trigram_dict[first_phrase] = {trigram_line_list[5]:trigram_line_list[1]}
-                else:
-                    trigram_dict[first_phrase][trigram_line_list[5]] = trigram_line_list[1]
+                trigram_line_list = no_newlines_line.strip().split(" ")
+                if len(trigram_line_list) > 4:  # trying to take care of newlines
+                    first_phrase = trigram_line_list[3] + " " + trigram_line_list[4]
+                    if first_phrase not in trigram_dict:
+                        trigram_dict[first_phrase] = {trigram_line_list[5]:trigram_line_list[1]}
+                    else:
+                        trigram_dict[first_phrase][trigram_line_list[5]] = trigram_line_list[1]
     return unigram_dict, bigram_dict, trigram_dict
 
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0c9943a-5f23-480b-9d8d-fd7e89ef5743" name="Default Changelist" comment="">
+    <list default="true" id="c0c9943a-5f23-480b-9d8d-fd7e89ef5743" name="Default Changelist" comment="added shakespeare_model.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_from_ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_from_ngram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_sentences.txt" beforeDir="false" afterPath="$PROJECT_DIR$/random_sentences.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build_ngram_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2817">
-              <caret line="194" selection-start-line="194" selection-end-line="194" />
+            <state relative-caret-position="141">
+              <caret line="147" column="54" selection-start-line="147" selection-start-column="54" selection-end-line="147" selection-end-column="54" />
               <folding>
                 <element signature="e#94#104#0" expanded="true" />
               </folding>
@@ -26,24 +26,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/austen_out.txt">
-          <provider selected="true" editor-type-id="LargeFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random_sentences_austen.txt">
+        <entry file="file://$PROJECT_DIR$/random_sentences_sherlock.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_sentences_shakespeare.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dickens_training.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dickens_model.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/part2_out.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate_from_ngram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="121">
+              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proj3_out.txt">
           <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="105">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -82,14 +105,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/proj3_out.txt" />
-        <option value="$PROJECT_DIR$/generate_from_ngram.py" />
         <option value="$PROJECT_DIR$/build_ngram_model.py" />
+        <option value="$PROJECT_DIR$/generate_from_ngram.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="166" />
+    <option name="x" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1245" />
     <option name="height" value="749" />
   </component>
@@ -193,11 +216,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554594651816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 and 2 Done!&#10;Could refactor a bit.">
+      <created>1554602817252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554602817252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added shakespeare_model.txt">
+      <created>1554734712693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554734712693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="166" width="1245" height="749" extended-state="0" />
+    <frame x="25" y="23" width="1245" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -223,34 +260,14 @@
     <MESSAGE value="Part 1 close to done-ish" />
     <MESSAGE value="Part 1 basically done!&#10;-might want to reorganize code into multiple files&#10;-or sort written output by count&#10;-delete the test print statements" />
     <MESSAGE value="Part 1 basically done!&#10;-might want to reorganize code into multiple files&#10;-or sort written output by count&#10;-delete the test print statements&#10;Part 2 working for unigrams and bigrams. Still need to do trigrams." />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 basically done!&#10;-might want to reorganize code into multiple files&#10;-or sort written output by count&#10;-delete the test print statements&#10;Part 2 working for unigrams and bigrams. Still need to do trigrams." />
+    <MESSAGE value="1 and 2 Done!&#10;Could refactor a bit." />
+    <MESSAGE value="added shakespeare_model.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added shakespeare_model.txt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../project2-eastasiantokenization-Puff27000/Thai_Tokenizer/thai_tokenizer_graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proj3_out.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="105">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="361650">
-          <caret line="24110" column="20" lean-forward="true" selection-start-line="24110" selection-start-column="20" selection-end-line="24110" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2_out.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generate_from_ngram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random_sentences.txt">
@@ -260,23 +277,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_ngram_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2817">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-          <folding>
-            <element signature="e#94#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/austen_out.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/random_sentences_austen.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_ngram_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="147" column="54" selection-start-line="147" selection-start-column="54" selection-end-line="147" selection-end-column="54" />
+          <folding>
+            <element signature="e#94#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_sentences_sherlock.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shakespeare_out.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="15">
+          <caret line="23125" column="47" selection-start-line="23125" selection-start-column="47" selection-end-line="23125" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_sentences_shakespeare.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dickens_training.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dickens_model.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2_out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj3_out.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="361650">
+          <caret line="24110" column="20" lean-forward="true" selection-start-line="24110" selection-start-column="20" selection-end-line="24110" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_from_ngram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
         </state>
       </provider>
     </entry>
