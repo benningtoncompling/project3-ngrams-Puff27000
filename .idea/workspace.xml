@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0c9943a-5f23-480b-9d8d-fd7e89ef5743" name="Default Changelist" comment="added shakespeare_model.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_from_ngram.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_from_ngram.py" afterDir="false" />
-    </list>
+    <list default="true" id="c0c9943a-5f23-480b-9d8d-fd7e89ef5743" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,12 +227,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554734712693</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added dickens_generated.txt">
+      <created>1554736409662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554736409662</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1245" height="749" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -262,7 +265,8 @@
     <MESSAGE value="Part 1 basically done!&#10;-might want to reorganize code into multiple files&#10;-or sort written output by count&#10;-delete the test print statements&#10;Part 2 working for unigrams and bigrams. Still need to do trigrams." />
     <MESSAGE value="1 and 2 Done!&#10;Could refactor a bit." />
     <MESSAGE value="added shakespeare_model.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="added shakespeare_model.txt" />
+    <MESSAGE value="added dickens_generated.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dickens_generated.txt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../project2-eastasiantokenization-Puff27000/Thai_Tokenizer/thai_tokenizer_graph.py">

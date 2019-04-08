@@ -96,5 +96,9 @@ trigram-generated sentences:
 What was hard/where I got stuck: Realizing I needed a FSM in Part 2!
 Easy: basic implementation of part 1, building off of previous classwork
 Confusing: Matching my output to your output when \n at the end was the only difference, but I got there!
-
+Also, remembering which part of the trigram is which, and dealing with the multiple nested dictonaries. 
+Annoying:
+Getting clear naming for each part of the process. Ended up with more duplicate code than I would like, but bug-fixing was too difficult when I tried the less redundant way.
+Fun: 
+Success! Generating random sentences from various authors. Super rewarding work. 
 
